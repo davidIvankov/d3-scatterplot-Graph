@@ -8,4 +8,42 @@ body {
   .dot {
     stroke: black
   }
-  
+
+@media screen and (max-width: 895px){
+  body{
+    transform: scale(0.9)
+  }
+}
+    @media screen and (max-width: 715px) {
+      body {
+        transform: scale(0.8)
+      }
+    }
+     @media screen and (max-width: 635px) {
+       body {
+         transform: scale(0.7)
+       }
+     }
+@media screen and (max-width: 555px) {
+  body {
+    transform: scale(0.6)
+  }
+}
+
+@media screen and (max-width: 475px) {
+  body {
+    transform: scale(0.5)
+  }
+}
+
+@media screen and (max-width: 397px) {
+  body {
+    transform: scale(0.4)
+  }
+}
+
+@media screen and (max-width: 318px) {
+  body {
+    transform: scale(0.3)
+  }
+}
